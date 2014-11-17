@@ -48,13 +48,13 @@ for t = 2:years
     temp(t)=(atmosphere(t-1)-750)*.01*350/750
 end %for loop
 
-atmosphere
-terrestrialBiosphere
-oceanSurface
-deepOcean
-soil
-emissions
-temp
+atmosphere;
+terrestrialBiosphere;
+oceanSurface;
+deepOcean;
+soil;
+emissions;
+temp;
 
 
 FigHandle = figure('Position', [0, 0, 900, 900]);
